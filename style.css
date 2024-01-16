@@ -309,7 +309,100 @@ nav{
     gap: 15px;
     margin: 0 auto 50px;
 }
+/* bd info */
+.bd{
+    width: 90%;
+}
+.bd h5{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800px;
+}
+.bdinfo img{
+    width: 551px;
+    border-radius: 16px;
+}
+.bdinfo p{
+    padding-top: 70px;
+    text-align: center;
+    width: 551px;
+    /* background-color: #131318; */
+    height: 200px;
+    border-radius: 16px;
+    color: rgba(10, 39, 0, 0.877);
+    font-weight: 700;
+}
+.bdinfo{
+    width: 90%;
+    display: flex;
+    gap: 50px;
+    /* background-color: #FF5400; */
+    margin: 0 auto 40px;
 
+}
+.bdinfo2 img{
+    width: 551px;
+    border-radius: 16px;
+}
+.bdinfo2 p{
+    padding-top: 70px;
+    text-align: center;
+    width: 551px;
+    /* background-color: #131318; */
+    height: 200px;
+    border-radius: 16px;
+    color: rgba(2, 20, 141, 0.877);
+    font-weight: 700;
+}
+.bdinfo2{
+    width: 90%;
+    display: flex;
+    gap: 50px;
+    /* background-color: #FF5400; */
+    margin: 0 auto 40px;
+}
+.bdinfo3 img{
+    width: 551px;
+    border-radius: 16px;
+}
+.bdinfo3 p{
+    padding-top: 70px;
+    text-align: center;
+    width: 551px;
+    /* background-color: #131318; */
+    height: 200px;
+    border-radius: 16px;
+    color: rgba(29, 32, 53, 0.877);
+    font-weight: 700;
+}
+.bdinfo3{
+    width: 90%;
+    display: flex;
+    gap: 50px;
+    /* background-color: #FF5400; */
+    margin: 0 auto 40px;
+}
+.bdinfo4 img{
+    width: 551px;
+    border-radius: 16px;
+}
+.bdinfo4 p{
+    padding-top: 70px;
+    text-align: center;
+    width: 551px;
+    /* background-color: #131318; */
+    height: 200px;
+    border-radius: 16px;
+    color: rgba(68, 89, 255, 0.877);
+    font-weight: 700;
+}
+.bdinfo4{
+    width: 90%;
+    display: flex;
+    gap: 50px;
+    /* background-color: #FF5400; */
+    margin: 0 auto 80px;
+}
 /* third part of main */
 .hotel-image img, .map-image img, .price-image img{
     width: 44px;
@@ -645,5 +738,39 @@ footer{
     }
     .line hr{
         width: 335px;
+    }
+    .bdinfo, .bdinfo3{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .bdinfo2, .bdinfo4{
+    
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+    .bdinfo img, .bdinfo2 img, .bdinfo3 img, .bdinfo4 img{
+        width: 335px;
+        height: 220px;
+        margin: 0 auto;
+
+    }
+    .bdinfo p, .bdinfo3 p{
+        width: 335px;
+        height: 200px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 0 auto;
+
+
+    }
+    .bdinfo2 p,.bdinfo4 p{
+        width: 335px;
+        height: 220px;
+        padding-top: 5px;
+        /* padding-bottom: 5px; */
+        margin: 0 auto 50px;
+    }
+    .bd{
+        margin: 0 auto;
     }
 }
