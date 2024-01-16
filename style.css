@@ -612,8 +612,9 @@ footer{
         
     }
     .hotel-image, .map-image, .price-image{
-        width: 335px;
+        width: 310px;
         height: 200px;
+        margin: 0 auto;
         padding: 30px 0px 20px 20px;
 
     }
@@ -621,14 +622,14 @@ footer{
         width: 288px;
     }
     .news-container{
-        width: 355px;
-        margin-bottom: 10px;
+        width: 335px;
+        margin: 0 auto 10px;
 
     }
     .right-mount{
-        width: 335px;
+        width: 325px;
         height: 200px;
-        margin-left: 0;
+        margin: 0 auto;
         padding-top: 180px;
         padding-left: 20px;
         padding-bottom: 0.14px;
