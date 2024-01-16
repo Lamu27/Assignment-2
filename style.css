@@ -3,7 +3,7 @@
     font-family: 'Mulish', sans-serif;
 }
 /* shared */
-.common-color h6{
+.common-color h3{
     color: #131318;
     font-size: 2em;
     font-weight: 800;
@@ -31,7 +31,6 @@ nav{
 
 .nav-options ul{
     display: flex;
-    /* background-color: #131318; */
     margin-top: 40px;
 
 }
@@ -99,7 +98,7 @@ nav{
     background: #FFF;
 }
 #search-icon{
-    margin-right: 4px;
+    margin-right: 6px;
 }
 #find{
     width: 174px;
@@ -108,8 +107,62 @@ nav{
     border-radius: 8px;
     border-color: #FF5400;
     color: #FFF;
+    font-size: 18px;
+    background: #FF5400;
+    cursor: pointer;
+}
+
+/* main part starts */
+
+.popular-tour-container{
+    width: 640px;
+    height: 550px;
+    background-color: #fff;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.popular-tour-container p,ul li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+.popular-tour-container h3{
+    color: #131318;
+    font-size: 2em;
+    font-weight: 800;
+}
+#read{
+    width: 174px;
+    height: 52px;
+    border-style: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    border-color: #FF5400;
+    color: #FFF;
+    margin-top: 20px;
     background: #FF5400;
 }
+.mountain img{
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+}
+.first-main{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
 
 
 /* responsive */
@@ -158,5 +211,15 @@ nav{
         height: 52px;
         margin:0 16px;
 
+    }
+    .first-main{
+        flex-direction: column;
+    }
+    .popular-tour-container{
+        width: 335px;
+    }
+    .mountain img{
+        width: 335px;
+        height: 342px;
     }
 }
