@@ -650,6 +650,7 @@ footer{
         margin:0 16px;
 
     }
+
     .first-main{
         flex-direction: column;
         align-items: center;
@@ -660,6 +661,7 @@ footer{
     .mountain img{
         width: 335px;
         height: 342px;
+        margin-top: 50px;
    
 
     }
@@ -742,11 +744,13 @@ footer{
     .bdinfo, .bdinfo3{
         flex-direction: column;
         gap: 15px;
+        align-items: center;
     }
     .bdinfo2, .bdinfo4{
-    
+        
         flex-direction: column-reverse;
         gap: 15px;
+        align-items: center;
     }
     .bdinfo img, .bdinfo2 img, .bdinfo3 img, .bdinfo4 img{
         width: 335px;
@@ -758,6 +762,7 @@ footer{
         width: 335px;
         height: 200px;
         padding-top: 5px;
+        /* background-color: #131318; */
         padding-bottom: 5px;
         margin: 0 auto;
 
@@ -771,6 +776,7 @@ footer{
         margin: 0 auto 50px;
     }
     .bd{
+        
         margin: 0 auto;
     }
 }
