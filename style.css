@@ -638,6 +638,7 @@ footer{
         flex-direction: column;
         align-items: center;
         /* background-color: #c50b0b; */
+        width: 250px;
         gap: 16px;
 
     }
