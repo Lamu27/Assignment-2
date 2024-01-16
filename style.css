@@ -4,7 +4,8 @@
 }
 body{
     margin: 0;
-    margin-bottom: 0;
+    margin-bottom: 0px;
+
 }
 /* shared */
 .common-color h3{
@@ -90,17 +91,22 @@ nav{
     gap: 24px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    width: 768px;
+    width: 60%;
     margin: 0 auto;
 }
-.input-find-option .where{
+.input-find-option .where, #when{
     width: 154px;
     height: 50px;
     padding-left: 10px;
     border-style: none;
     border-radius: 8px;
-    border-color: #FFF;
+    border-color: #c50b0b;
     background: #FFF;
+}
+#when{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
 }
 #search-icon{
     margin-right: 6px;
@@ -148,6 +154,7 @@ nav{
     margin-top: 20px;
     background: #FF5400;
 }
+
 .mountain img{
     width: 540px;
     height: 550px;
@@ -267,7 +274,6 @@ nav{
 }
 .image345{
     width: 90%;
-    /* height: 286px; */
     display: flex;
     gap: 15px;
     margin: 12px auto 15px;
@@ -304,7 +310,6 @@ nav{
 }
 .image67{
     width: 90%;
-    /* height: 300px; */
     display: flex;
     gap: 15px;
     margin: 0 auto 50px;
@@ -326,7 +331,6 @@ nav{
     padding-top: 70px;
     text-align: center;
     width: 551px;
-    /* background-color: #131318; */
     height: 200px;
     border-radius: 16px;
     color: rgba(10, 39, 0, 0.877);
@@ -336,7 +340,6 @@ nav{
     width: 90%;
     display: flex;
     gap: 50px;
-    /* background-color: #FF5400; */
     margin: 0 auto 40px;
 
 }
@@ -348,7 +351,6 @@ nav{
     padding-top: 70px;
     text-align: center;
     width: 551px;
-    /* background-color: #131318; */
     height: 200px;
     border-radius: 16px;
     color: rgba(2, 20, 141, 0.877);
@@ -619,8 +621,6 @@ footer{
         visibility: visible;
     }
     .after-navbar{
-
-        width: 335px;
         height: 483px;
     }
     .after-navbar .explore{
@@ -634,13 +634,19 @@ footer{
     }
     .input-find-option{
         flex-direction: column;
-        width: 287px;
+        align-items: center;
+        /* background-color: #c50b0b; */
         gap: 16px;
 
     }
     .input-find-option .where
     {
         width: 255px;
+        height: 52px;
+        margin:0 16px;
+    }
+    #when{
+        width: 265px;
         height: 52px;
         margin:0 16px;
     }
